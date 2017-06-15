@@ -5,57 +5,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css" />
+    <link rel="stylesheet" href="styles.css">
+
     <title>Document</title>
 </head>
 
-<body>
+<body class="col-sm-11 col-md-11 col-lg-10">
     <nav>
         <ul>
             <li><a href="#about-me">Who is this?</a></li>
             <li><a href="#history">Since when?</a></li>
             <li><a href="#what-else">What else?</a></li>
-            <li><a href="#in-closing">Contact<a/a></li>
+            <li><a href="#in-closing">Contact</a></li>
         </ul>
     </nav>
     <main>
         <header>
             <h1>Lindy Hop FTW</h1>
-            <p>
-                Go Down Laughing, Get Up and Swing Out!<sup>&copy<sup><sup><a href="#footnote" >&dagger;</a></sup>
+            <p id="tagline"><em>Go Down Laughing, Get Up and Swing Out!<sup>&copy</sup><sup><a href="#footnote" >&dagger;</a></sup>
+            </em></p>
+        </header>
+        <section id="about-me">
+            <articl>
+                <h2>Learning to Dance</h2>
+                <p>I learned to lindy hop quite reluctantly. My wife wanted to learn to dance. I did my best to enjoy what a good time she was having until one day I happened to notice I too was having a good time. I've been an enthusiastic lindy hopper
+                    ever since.
                 </p>
-                </header>
-                <section id="about-me">
-                    <h2>Learning to Dance</h2>
-                    <p>I learned to lindy hop quite reluctantly. My wife wanted to learn to dance.</p>
-                    <div>
-                        <img src="./images/tandem.jpg" alt="tandem charlston">
-                        <img src="./images/kickaways.jpg" alt="kick-aways">
-                    </div>
-                </section>
-                <section id="history">
-                    <h3> A little about the history of lindy...</h3>
-                    <p>
-                        Various types of swing dance developed all over the country in the early half of the 20th century. Where Lindy hop first appeared is the subject of some debate but it evolved in Harlem. In the fertile ground of the Harlem Renaissance and the heyday of
-                        the jazz scene in New York. Eventually landing in Hollywood, it would be seen an embraced by kids across the country.
-                    </p>
-                    <div>
-                        <img src="http://www.abda.com.tr/wp-content/uploads/2015/04/lindy-hop.png" alt="lindy hoppers">
-                        <img src="https://static1.squarespace.com/static/52a70042e4b06a3e88b18e86/52b216cce4b08d200bcdcd0e/52b216cde4b0023aa64faaed/1387402958933/8.jpeg?format=1000w" alt="more lindy hoppers">
-                        <img src="http://www.dancearchives.net/wordpress/wp-content/uploads/2012/02/savoy-ballroom.jpg" alt="even more lindy hoppers">
-                    </div>
-                </section>
-                <aside id="what-else">
-                    Oh, the music... American music stands on the shoulders of giants.
-                    <iframe width="854" height="480" src="https://www.youtube.com/embed/wt1GzAMA6yY" frameborder="0" allowfullscreen></iframe>
-                    <iframe width="854" height="480" src="https://www.youtube.com/embed/ZuVfmfaNupQ" frameborder="0" allowfullscreen></iframe>
-                    <iframe width="854" height="480" src="https://www.youtube.com/embed/tnOWikgTG2Q" frameborder="0" allowfullscreen></iframe>
-                </aside>
-                </main>
-                <footer id="in-closing">
-
-                    <p id="footnote">&dagger; I don't actually believe that this is copyrighted but including and html entity was a requirement for this student project. All the same, I read it on and borrowed it from the <a href="http://www.europeanswing.com/">European Swing Dance Championships</a>                        website.
-                    </p>
-                </footer>
+            </articl>
+            <div>
+                <img class="my-pics" src="images/tandem.jpg" alt="tandem charlston">
+                <img class="my-pics" src="images/kickaways.jpg" alt="kick-aways">
+            </div>
+        </section>
+        <section id="history">
+            <h3> A little about the history of lindy...</h3>
+            <p>
+                Various types of swing dance developed all over the country in the early half of the 20th century. Where Lindy hop first appeared is the subject of some debate but it evolved in Harlem in the fertile ground of the Harlem Renaissance and the heyday of
+                the jazz scene in New York. Eventually landing in Hollywood, it would be seen an embraced by kids across the country.
+            </p>
+            <div id="triple-frame">
+                <img class="other-peoples-pics" src="http://www.abda.com.tr/wp-content/uploads/2015/04/lindy-hop.png" alt="lindy hoppers">
+                <img class="other-peoples-pics" src="https://static1.squarespace.com/static/52a70042e4b06a3e88b18e86/52b216cce4b08d200bcdcd0e/52b216cde4b0023aa64faaed/1387402958933/8.jpeg?format=1000w" alt="more lindy hoppers">
+                <img class="other-peoples-pics" src="http://www.dancearchives.net/wordpress/wp-content/uploads/2012/02/savoy-ballroom.jpg" alt="even more lindy hoppers">
+            </div>
+        </section>
+        <aside id="what-else">
+            <h4>Oh, the music... </h4>
+            <p>
+                Jazz has been called the first american artform. Getting to know early jazz changed my appreciation for american music, music more generally, and changed my dancing. This well runs deep.
+            </p>
+            <div id="youtube">
+                <iframe src="https://www.youtube.com/embed/wt1GzAMA6yY" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/ZuVfmfaNupQ" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/3YjF4Jomn44" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </aside>
+    </main>
+    <footer id="in-closing">
+        <h5 style="text-align: center">
+            <a href="https://github.com/TheObtuseAutodidact"><img class="icon" src="./images/GitHub-Mark-Light-32px.png" alt="githublog"></a>
+        </h5>
+        <p id="footnote">&dagger; I don't actually believe that this is copyrighted but including and html entity was a requirement for this student project. All the same, I read it on and borrowed it from the <a href="http://www.europeanswing.com/">European Swing Dance Championships</a>            website.
+        </p>
+    </footer>
 
 </body>
 
